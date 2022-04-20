@@ -1,0 +1,59 @@
+
+body{
+    background: rgb(201, 198, 198);
+
+}
+.container{
+    margin-top: 150px;
+
+}
+label{
+    position:relative ;
+    text-align: right;
+}
+
+
+form{
+    width: 30%;
+    padding: 20px;
+    border: 1px solid rgb(56, 56, 56);
+    margin: 0 auto;
+    background-image: url(uno.png);
+background-size:100%;
+background-position: center;
+background-repeat: no-repeat;
+border-top-left-radius: 50px;
+border-bottom-right-radius: 50px;
+
+}
+input, textarea{
+    width: 100%;
+    padding: 15px;
+    border: 1 solid rgb(92, 92, 92);
+    margin-bottom: 20px;
+box-sizing: border-box;
+background: rgba(255, 255, 255, 0.80);
+
+}
+
+input:hover, textarea:hover{
+    background:rgba(187, 187, 187, 0.7) ;
+}
+input:focus, textarea:focus{
+    border: 1px solid rgb(77, 83, 245) ;
+}
+input[type="submit"]{
+    background: rgba(76, 73, 220, 0.85);
+    padding-top: 10px;
+    color: bisque;
+    height: 40px;
+    font-size: 19px;
+    margin-bottom: 0;
+    font-family: monospace;
+    font-style:inherit;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    box-shadow:0 4px 6px 0 rgb(7, 12, 43);
+    background: rgba(73, 169, 220, 0.85);
+}
